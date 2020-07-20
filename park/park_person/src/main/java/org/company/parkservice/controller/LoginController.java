@@ -3,7 +3,7 @@ import org.company.commonutils.R;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/eduservice/user")
+@RequestMapping("/parkservice/user")
 @CrossOrigin
     public class LoginController {
 
