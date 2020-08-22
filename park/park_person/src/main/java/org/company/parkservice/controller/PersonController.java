@@ -28,7 +28,6 @@ import java.util.List;
 public class PersonController {
     @Autowired
     private PersonService personService;
-    //1 查询讲师表所有数据
 
     @ApiOperation(value = "所有用户列表")
     @GetMapping("findAll")
