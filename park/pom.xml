@@ -13,7 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>park_person</module>
-        <module>park_picture</module>
+        <module>park_pricture</module>
     </modules>
 
     <dependencies>
@@ -126,21 +126,21 @@
         <version>4.12</version>
     </dependency>
 </dependencies>
-<build>
-<resources>
-    <resource>
-        <directory>src/main/java</directory>
-        <includes>
-            <include>**/*.xml</include>
-        </includes>
-        <filtering>false</filtering>
-    </resource>
-</resources>
-<plugins>
-    <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-    </plugin>
-</plugins>
-</build>
-        </project>
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

@@ -37,7 +37,6 @@ public class PersonController {
         return R.ok().data("items",list);
     }
 
-    //2 逻辑删除
     @ApiOperation(value = "逻辑删除")
     @DeleteMapping("{id}")
     public R removePerson(@ApiParam(name = "id", value = "用户ID", required = true)

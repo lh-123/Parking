@@ -9,9 +9,12 @@
         <module name="common_utils" />
         <module name="park_person" />
         <module name="common_base" />
-        <module name="park_picture" />
+        <module name="park_pricture" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="park_picture" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -19,6 +22,7 @@
       <module name="common_utils" options="-parameters" />
       <module name="park_person" options="-parameters" />
       <module name="park_picture" options="-parameters" />
+      <module name="park_pricture" options="-parameters" />
     </option>
   </component>
 </project>

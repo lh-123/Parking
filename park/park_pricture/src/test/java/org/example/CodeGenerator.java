@@ -1,4 +1,4 @@
-package org.company;
+package org.example;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -25,7 +25,7 @@ public class CodeGenerator {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
         System.out.println(projectPath);
-        gc.setOutputDir("/home/lih/workspeace/park/parking/park/park_picture" + "/src/main/java");
+        gc.setOutputDir("/home/lih/workspeace/parking/park/park_pricture" + "/src/main/java");
 
 
         gc.setAuthor("lih");
